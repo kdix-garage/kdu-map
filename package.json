@@ -1,0 +1,36 @@
+{
+  "name": "kdu-map",
+  "version": "1.0.0",
+  "description": "Map viewer/editor application based on web",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "KDIX.Garage",
+    "url": "https://kdix.dev"
+  },
+  "contributors": [
+    {
+      "name": "tukiminya",
+      "url": "https://tuki.dev"
+    }
+  ],
+  "devDependencies": {
+    "vite-plus": "^0.2.1"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.8.0",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "24.17.0",
+      "onFail": "download"
+    }
+  }
+}
