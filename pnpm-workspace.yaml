@@ -1,0 +1,10 @@
+packages:
+  - apps/web
+  - apps/api
+  - packages/database
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+catalog:
+  "@types/geojson": ^7946.0.16

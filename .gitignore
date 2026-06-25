@@ -1,0 +1,8 @@
+node_modules
+
+.wrangler
+.tanstack
+.pnpm-store
+dist
+
+.DS_Store
